@@ -148,9 +148,9 @@ section{
     height: 80vh;
     width: 80vw;
 }
-.text{
+/* .text{
    min-width: 400px;
-}
+} */
 .sec1 div ,.text2 div{
     margin-top: 1rem;
     width: 50%;
@@ -407,16 +407,17 @@ footer .lang{
     }
     .sec1{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         flex-wrap: wrap;
     }
     .text{
         height: 50%;
-        min-width: 440px;
+        width: 100vw;
     }
-    .image1{
+    .image1 img video{
         height: 50%;
-        min-width: 400px;
+        width: 100vw;
+        /* min-width: 400px; */
     }
     main h1{
         font-size: 1.8rem;
